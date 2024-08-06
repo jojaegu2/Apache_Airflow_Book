@@ -1,0 +1,2 @@
+- [1장 노션 링크](https://yeseonson.notion.site/Chapter-1-Apache-Airflow-18b412580b664580b11dac9318ef459e)
+- [2장 노션 링크](https://yeseonson.notion.site/Chapter2-Airflow-DAG-7d5686b3f7f346ea93a4d75653c5b887)
