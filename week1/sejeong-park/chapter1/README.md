@@ -19,7 +19,7 @@
 
 ### 비순환성
 
-![Untitled](Chapther%201%20Apache%20Airflow%20%E1%84%89%E1%85%A1%E1%86%AF%E1%84%91%E1%85%A7%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%203aff64cc542e4678a8d5735081454b27/Untitled.png)
+![Untitled](./asset//Untitled.png)
 
 - 태스크 간 순환 실행을 방지하기 때문에 매우 중요 (태스크 A가 B에 의존, B가 Adp dmlwhs)
 - 그래프에서 순환 의존성이 문제를 발생할 수 있음
@@ -61,11 +61,11 @@
 
 # Airflow
 
-![Untitled](Chapther%201%20Apache%20Airflow%20%E1%84%89%E1%85%A1%E1%86%AF%E1%84%91%E1%85%A7%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%203aff64cc542e4678a8d5735081454b27/Untitled%201.png)
+![Untitled](./asset/Untitled%201.png)
 
 ### 파이썬 코드로 유연한 파이프라인 정의
 
-![Untitled](Chapther%201%20Apache%20Airflow%20%E1%84%89%E1%85%A1%E1%86%AF%E1%84%91%E1%85%A7%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%203aff64cc542e4678a8d5735081454b27/Untitled%202.png)
+![Untitled](./asset/Untitled%202.png)
 
 - Airflow는 파이썬 스크립트로 DAG의 구조를 설명하고 구성
 - DAG에 대한 태스크 집합과 태스크 간 의존성 기술
@@ -81,7 +81,7 @@
 
 ## 파이프라인 스케줄링 및 실행
 
-![Untitled](Chapther%201%20Apache%20Airflow%20%E1%84%89%E1%85%A1%E1%86%AF%E1%84%91%E1%85%A7%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%203aff64cc542e4678a8d5735081454b27/Untitled%203.png)
+![Untitled](./asset/Untitled%203.png)
 
 ### Airflow 구성 요소
 
@@ -103,7 +103,7 @@
 - 이 과정의 모든 결과 Airflow의 메타스토어로 전달
 - 이후 사용자 인터페이스를 통해 태스크 진행상황 추적 및 로그 확인
 
-![Untitled](Chapther%201%20Apache%20Airflow%20%E1%84%89%E1%85%A1%E1%86%AF%E1%84%91%E1%85%A7%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%203aff64cc542e4678a8d5735081454b27/Untitled%204.png)
+![Untitled](./asset/Untitled%204.png)
 
 ### 모니터링과 실패 처리
 

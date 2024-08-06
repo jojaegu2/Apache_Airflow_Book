@@ -6,7 +6,7 @@
 
 ### airflow DAG 작성
 
-![Untitled](Chapter%202%20Airflow%E1%84%8B%E1%85%B4%20DAG%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%207d394bdf19e445f4804856428aecf8c1/Untitled.png)
+![Untitled](./asset/Untitled.png)
 
 - bash 스크립트와 Python 스크립트를 혼용
 
@@ -94,7 +94,7 @@ download_launches >> get_pictures >> notify
 
 ## 태스크와 오퍼레이터의 차이점
 
-![Untitled](Chapter%202%20Airflow%E1%84%8B%E1%85%B4%20DAG%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%207d394bdf19e445f4804856428aecf8c1/Untitled%201.png)
+![Untitled](./asset/Untitled%201.png)
 
 ### 오퍼레이터
 
