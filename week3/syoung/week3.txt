@@ -1,0 +1,9 @@
+## 3주차 주제
+
+- **airflow task간 의존성 정의**
+- **Apache 워크플로 트리거**
+
+## 정리 블로그
+
+- **5장 airflow task간 의존성 정의**: `https://sy02229.tistory.com/432`
+- **6장 airflow 워크플로 트리거**: `https://sy02229.tistory.com/434`
