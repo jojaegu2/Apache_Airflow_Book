@@ -387,5 +387,4 @@ my_postgres
 
 ![alt text](./img2/image-10.png)
 PostgresOperator에 적합한 설정을 제공하면 PostgresHook이 내부적인 작업을 수행한다.
-
 최종적으로 Postgre에서 분석 쿼리를 질의 함으로써 원하는 결과를 얻을 수 있게 된다.
