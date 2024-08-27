@@ -6,7 +6,7 @@
 
 ### airflow DAG 작성
 
-![Untitled](./asset/Untitled.png)
+![Untitled](./assets/Untitled.png)
 
 - bash 스크립트와 Python 스크립트를 혼용
 
@@ -94,7 +94,7 @@ download_launches >> get_pictures >> notify
 
 ## 태스크와 오퍼레이터의 차이점
 
-![Untitled](./asset/Untitled%201.png)
+![Untitled](./assets/Untitled%201.png)
 
 ### 오퍼레이터
 
@@ -123,12 +123,12 @@ def _get_pictures():
 
 		# 1. 저장할 디렉터리가 있는 지 확인 - 없으면 생성 
     pathlib.Path("/tmp/images").mkdir(parents=True, exist_ok=True)
-    
+
     # 2. 로켓 발사에 대한 이미지 추출
     with open("/tmp/launches.json") as f:
         launches = json.load(f)
     image_urls = [launch["image"] for launch in launches["results"]]
-    
+
     # 3. 반환된 이미지 URL에서 모든 이미지 다운로드
     for image_url in image_urls:
         try:

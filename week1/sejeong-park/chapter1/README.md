@@ -19,14 +19,14 @@
 
 ### 비순환성
 
-![Untitled](./asset//Untitled.png)
+![Untitled](./assets/Untitled.png)
 
 - 태스크 간 순환 실행을 방지하기 때문에 매우 중요 (태스크 A가 B에 의존, B가 Adp dmlwhs)
 - 그래프에서 순환 의존성이 문제를 발생할 수 있음
 - 태스크 3이 완료된 후에만 태스크 2가 실행되는데, 태스크 3은 태스크 2가 완료된 후에 실행되기 때문
-    
+
     → 논리적 오류가 교착상태(데드락)으로 이어지며, 2와 3 모두 실행 할 수 없기 때문에 그래프 실행 불가
-    
+
 
 ### 파이프라인 그래프 실행
 
@@ -50,7 +50,6 @@
 
 > DE 관련하여 들어본 것 & 내가 관심있는 기술만 정리
 > 
-
 | 이름 | 워크플로 정의 | 개발 언어 | 스케줄 관리 | 백필 | 사용자 인터페이스 | 플랫폼 설치 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Airflow | 파이썬 | 파이썬 | 예 | 예 | 예 | Anywhere |
@@ -61,11 +60,11 @@
 
 # Airflow
 
-![Untitled](./asset/Untitled%201.png)
+![Untitled](./assetsUntitled%201.png)
 
 ### 파이썬 코드로 유연한 파이프라인 정의
 
-![Untitled](./asset/Untitled%202.png)
+![Untitled](./assetsUntitled%202.png)
 
 - Airflow는 파이썬 스크립트로 DAG의 구조를 설명하고 구성
 - DAG에 대한 태스크 집합과 태스크 간 의존성 기술
@@ -81,7 +80,7 @@
 
 ## 파이프라인 스케줄링 및 실행
 
-![Untitled](./asset/Untitled%203.png)
+![Untitled](./assetsUntitled%203.png)
 
 ### Airflow 구성 요소
 
@@ -103,7 +102,7 @@
 - 이 과정의 모든 결과 Airflow의 메타스토어로 전달
 - 이후 사용자 인터페이스를 통해 태스크 진행상황 추적 및 로그 확인
 
-![Untitled](./asset/Untitled%204.png)
+![Untitled](./assetsUntitled%204.png)
 
 ### 모니터링과 실패 처리
 
