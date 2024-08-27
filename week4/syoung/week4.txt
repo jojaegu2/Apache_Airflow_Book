@@ -1,0 +1,9 @@
+## 4주차 주제
+
+- **airflow 외부 시스템 통신**
+- **커스텀 컴포넌트 빌드**
+
+## 정리 블로그
+
+- **7장 airflow 외부 시스템 통신**: `https://sy02229.tistory.com/437`
+- **8장 airflow 커스텀 컴포넌트**: `https://sy02229.tistory.com/439`
