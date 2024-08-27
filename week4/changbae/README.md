@@ -1,0 +1,2 @@
+- [7장](https://www.notion.so/Chapter-7-c1a51f3ae23d46e38d8c6b6c6d640814)
+- [8장](https://www.notion.so/Chapter-8-fff54cb6999980daa7eee2861c8d0479)
