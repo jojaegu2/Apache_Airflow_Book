@@ -1,0 +1,9 @@
+## 5주차 주제
+
+- **airflow 테스트 하기**
+- **airflow 컨테이너에서 태스크 실행**
+
+## 정리 블로그
+
+- **9장 airflow 테스트**: `https://sy02229.tistory.com/440`
+- **10장 airflow 컨테이너에서 태스크 실행**: `https://sy02229.tistory.com/444`
