@@ -1,0 +1,9 @@
+## 6주차 주제
+
+- **효율적인 dag 관리**
+- **운영환경에서 airflow 관리**
+
+## 정리 블로그
+
+- **11장 효율적 dag 관리**: `https://sy02229.tistory.com/447`
+- **12장 운영환경에서 airflow 관리**: `https://sy02229.tistory.com/448`
