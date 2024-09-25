@@ -1,0 +1,9 @@
+## 7주차 주제
+
+- **airflow 보안**
+- **airflow 프로젝트**
+
+## 정리 블로그
+
+- **13장 airflow 보안**: `https://sy02229.tistory.com/449`
+- **14장 뉴욕에서 가장 빠른길 찾기**: `https://sy02229.tistory.com/450`
